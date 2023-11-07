@@ -67,6 +67,7 @@ void setup() {
   lcd.print("6 DOF ROBOTIC ARM ");
   lcd.setCursor(0, 2);
   lcd.print("PROTOTYPE 1");
+  
     pwm.begin();
     pwm.setPWMFreq(FREQUENCY);
     pwm.setPWM(1,0,pulseWidth(125));
